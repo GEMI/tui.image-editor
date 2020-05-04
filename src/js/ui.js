@@ -635,7 +635,7 @@ class Ui {
                 }
             } else if (menuBarPosition === 'top') {
                 if (height > this._editorElementWrap.offsetHeight - 150) {
-                    top = (150 / 2) - ((height - (this._editorElementWrap.offsetHeight - 150)) / 2);
+                    top = - (height + this._editorElementWrap.offsetHeight + 150);
                 } else {
                     top = 150 / 2;
                 }
