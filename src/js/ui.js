@@ -634,11 +634,7 @@ class Ui {
                     top = (150 / 2) * -1;
                 }
             } else if (menuBarPosition === 'top') {
-                if (height > this._editorElementWrap.offsetHeight - 150) {
-                    top = - (height + this._editorElementWrap.offsetHeight + 150);
-                } else {
-                    top = 150 / 2;
-                }
+                top = 150;
             } else if (menuBarPosition === 'left') {
                 if (width > this._editorElementWrap.offsetWidth - 248) {
                     left = (248 / 2) - ((width - (this._editorElementWrap.offsetWidth - 248)) / 2);
